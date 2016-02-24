@@ -10,7 +10,7 @@ Taxes.taxRate = 0.06; // 住民税率
 
 var OpenSpending = OpenSpending || {};
 
-OpenSpending.identifier = 'kasaoka_2015_ippan';
+OpenSpending.identifier = 'kasaokashi_2015_ippan';
 OpenSpending.year = '2015';
 
 OpenSpending.Styles = OpenSpending.Styles || {};
