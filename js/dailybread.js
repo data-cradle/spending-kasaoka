@@ -112,7 +112,7 @@ OpenSpending.DailyBread = function (elem) {
 
   this.setSalary = function (salary) {
     self.salaryVal = salary
-    self.taxVal = (salary - (baseKoujo + (dependentType == 'family' ? huyoKoujo : 0))) * taxRate;
+    self.taxVal = (salary - (baseKoujo + (dependentType == 'family' ? huyoKoujo : 0))) * taxRate + 3000;
   }
 
   this.draw = function () {
